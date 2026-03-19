@@ -28,7 +28,7 @@ public class Circulo extends Figura {
     }
 
     /**
-     * @return radio
+     * @return radioo
      */
     public double getRadio() {
         return radio;
