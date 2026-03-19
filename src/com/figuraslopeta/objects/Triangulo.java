@@ -1,6 +1,5 @@
 package com.figuraslopeta.objects;
-import com.figuraslopeta.model.*;
-public class Triangulo implements Calculable, Dibujable {
+public class Triangulo extends Figura {
 
     private double base;
     private double altura;
@@ -15,6 +14,8 @@ public class Triangulo implements Calculable, Dibujable {
         this.setLado2(l2);
         this.setLado3(l3);
     }
+
+
     @Override
     public double calcularArea() {
         return (getBase() * getAltura()) / 2;
@@ -23,6 +24,10 @@ public class Triangulo implements Calculable, Dibujable {
     public double calcularPerimetro() {
         return getLado1() + getLado2() + getLado3();
     }
+
+    /**
+     * Dibuja por pantalla el triangulo.....
+     */
     @Override
     public void dibujar() {
         System.out.println("Dibujando triangulo");

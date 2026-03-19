@@ -18,6 +18,9 @@ public class GestorFiguras {
         getFiguras().add(f);
     }
 
+    /**
+     * Se muestran todas las areas de las figuras agregadas
+     */
     public void mostrarAreas() {
 
         for (Object f : getFiguras()) {
@@ -40,6 +43,9 @@ public class GestorFiguras {
         }
     }
 
+    /**
+     * Mostramos todos los perimetros....
+     */
     public void mostrarPerimetros() {
 
         for (Object f : getFiguras()) {
@@ -61,6 +67,9 @@ public class GestorFiguras {
         }
     }
 
+    /**
+     * Dibujamos todas las figuras....
+     */
     public void dibujarTodo() {
 
         for (Object f : getFiguras()) {

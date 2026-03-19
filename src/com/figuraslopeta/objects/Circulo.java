@@ -1,8 +1,11 @@
 package com.figuraslopeta.objects;
-import com.figuraslopeta.model.*;
 
-public class Circulo implements Calculable, Dibujable {
 
+public class Circulo extends Figura {
+
+    /**
+     * Hemos encapsulado radio y añadido su get y set
+     */
     private double radio;
 
     public Circulo(double radio) {
@@ -24,10 +27,17 @@ public class Circulo implements Calculable, Dibujable {
         System.out.println("Dibujando circulo de radio " + getRadio());
     }
 
+    /**
+     * @return radio
+     */
     public double getRadio() {
         return radio;
     }
 
+    /**
+     *
+     * @param radio
+     */
     public void setRadio(double radio) {
         this.radio = radio;
     }

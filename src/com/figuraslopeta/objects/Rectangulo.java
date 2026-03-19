@@ -1,6 +1,6 @@
 package com.figuraslopeta.objects;
-import com.figuraslopeta.model.*;
-public class Rectangulo implements Calculable, Dibujable {
+
+public class Rectangulo extends Figura {
 
     private double ancho;
     private double alto;
@@ -14,6 +14,11 @@ public class Rectangulo implements Calculable, Dibujable {
     public double calcularArea() {
         return getAncho() * getAlto();
     }
+
+    /**
+     * Devuelve el perimetro en base al ancho y alto (2*ancho + 2*alto)
+     *
+     */
     @Override
     public double calcularPerimetro() {
         return 2 * getAncho() + 2 * getAlto();
