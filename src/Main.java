@@ -1,3 +1,8 @@
+import com.figuraslopeta.objects.Circulo;
+import com.figuraslopeta.objects.Rectangulo;
+import com.figuraslopeta.objects.Triangulo;
+import com.figuraslopeta.service.GestorFiguras;
+
 public class Main {
 
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
-public class Triangulo implements Calculable, Dibujable{
+package com.figuraslopeta.objects;
+import com.figuraslopeta.model.*;
+public class Triangulo implements Calculable, Dibujable {
 
     private double base;
     private double altura;

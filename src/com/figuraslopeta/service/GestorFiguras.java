@@ -1,3 +1,9 @@
+package com.figuraslopeta.service;
+
+import com.figuraslopeta.objects.Circulo;
+import com.figuraslopeta.objects.Rectangulo;
+import com.figuraslopeta.objects.Triangulo;
+
 import java.util.ArrayList;
 
 public class GestorFiguras {

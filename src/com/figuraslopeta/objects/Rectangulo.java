@@ -1,4 +1,6 @@
-public class Rectangulo implements Calculable, Dibujable{
+package com.figuraslopeta.objects;
+import com.figuraslopeta.model.*;
+public class Rectangulo implements Calculable, Dibujable {
 
     private double ancho;
     private double alto;

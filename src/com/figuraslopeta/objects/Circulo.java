@@ -1,3 +1,6 @@
+package com.figuraslopeta.objects;
+import com.figuraslopeta.model.*;
+
 public class Circulo implements Calculable, Dibujable {
 
     private double radio;
