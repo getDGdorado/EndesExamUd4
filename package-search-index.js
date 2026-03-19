@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.figuraslopeta.model"},{"l":"com.figuraslopeta.objects"},{"l":"com.figuraslopeta.service"}];updateSearchResults();
